@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Meta Tags -->
-  <title>APPS.DAVAbg - Приложения | Apps</title>
-  <meta name="description" content="APPS.DAVAbg - Уеб приложения и дигитални инструменти за продуктивност. Web applications and digital productivity tools.">
-  <meta name="keywords" content="DAVAbg, apps, приложения, recycling, рециклиране, строителни материали, construction materials, productivity tools, дигитални инструменти">
-  <meta name="author" content="DAVAbg">
+  <title>APPS.DAVA.bg - Приложения | Apps</title>
+  <meta name="description" content="APPS.DAVA.bg - Уеб приложения и дигитални инструменти за продуктивност. Web applications and digital productivity tools.">
+  <meta name="keywords" content="DAVA.bg, apps, приложения, recycling, рециклиране, строителни материали, construction materials, productivity tools, дигитални инструменти">
+  <meta name="author" content="DAVA.bg">
   <meta name="robots" content="index, follow">
   
   <!-- Canonical URL -->
@@ -24,8 +24,8 @@
   <meta property="og:locale" content="bg_BG">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:url" content="https://apps.dava.bg">
-  <meta property="og:site_name" content="APPS.DAVAbg">
-  <meta property="og:title" content="APPS.DAVAbg - Уеб приложения и дигитални инструменти">
+  <meta property="og:site_name" content="APPS.DAVA.bg">
+  <meta property="og:title" content="APPS.DAVA.bg - Уеб приложения и дигитални инструменти">
   <meta property="og:description" content="Уеб приложения и дигитални инструменти за продуктивност. Web applications and digital productivity tools.">
   <meta property="og:image" content="https://apps.dava.bg/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -33,7 +33,7 @@
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="APPS.DAVAbg - Уеб приложения">
+  <meta name="twitter:title" content="APPS.DAVA.bg - Уеб приложения">
   <meta name="twitter:description" content="Уеб приложения и дигитални инструменти за продуктивност.">
   <meta name="twitter:image" content="https://apps.dava.bg/og-image.png">
   
@@ -186,7 +186,7 @@
       <div class="logo-badge">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>
       </div>
-      <h1 class="logo-text"><span class="domain">APPS.</span>DAVAbg</h1>
+      <h1 class="logo-text"><span class="domain">APPS.</span>DAVA.bg</h1>
     </div>
     <p class="subtitle" data-text="subtitle">Уеб приложения и дигитални инструменти за продуктивност</p>
     <div class="divider"><div class="divider-line"></div><div class="divider-dot"></div><div class="divider-line"></div></div>
@@ -202,7 +202,7 @@
     <div class="footer-content">
       <div class="footer-brand">
         <div class="footer-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg></div>
-        <span class="footer-name">APPS.DAVAbg</span>
+        <span class="footer-name">APPS.DAVA.bg</span>
       </div>
       <p class="footer-copy" data-text="copyright">© 2025 Всички права запазени. Създадено с грижа.</p>
     </div>
@@ -260,13 +260,13 @@
         const key = el.dataset.text;
         if (t[key]) el.textContent = t[key].replace('{year}', new Date().getFullYear());
       });
-      document.title = 'APPS.DAVAbg - ' + (currentLang === 'bg' ? 'Приложения' : 'Apps');
+      document.title = 'APPS.DAVA.bg - ' + (currentLang === 'bg' ? 'Приложения' : 'Apps');
     }
 
     function renderCards() {
       const t = translations[currentLang];
       let html = t.apps.map((app, index) => `
-        <a href="${app.href}" target="_blank" rel="noopener noreferrer" class="app-card" style="animation-delay: ${index * 0.1}s">
+        <a href="${app.href}"  class="app-card" style="animation-delay: ${index * 0.1}s">
           <div class="app-gradient" style="background: ${app.gradient};"></div>
           <div class="app-overlay"></div>
           <div class="app-content">
